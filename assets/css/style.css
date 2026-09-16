@@ -77,6 +77,7 @@ header div a{
     justify-content:center;
     align-items: center;
     gap: 30px;
+    margin: 40px 0;
 }
 .project-heading{
     display: flex;
@@ -141,18 +142,18 @@ flex-direction: column;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:20px;
+    gap:40px;
 }
 .similar-card{
-    
     width: 327px;
     height:400px;
     background:url(../images/similar_bg.svg);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: #fff;
-    padding: 8px;
+    padding: 8px 0;
     gap: 15px;
 
 }
@@ -183,7 +184,7 @@ flex-direction: column;
     color:#fff;
     width: 100%;
     border:none;
-    margin-top: 110px;
+   margin-bottom: -168px;
     border-radius: 3px;
 }
 #first-similar{
