@@ -261,7 +261,7 @@ gap:40px;
 }
 .abt-cards span{
     display: flex;
-    align-items: center
+    align-items: center;
     padding:10px;
     gap:10px;
 }
@@ -348,7 +348,7 @@ display: flex;
     gap: 15px;
 }
 .contact form span input{
-    width: 300px;
+    min-width: 300px;
     padding: 10px;
    margin: 10px 0;
    border: none;
@@ -388,4 +388,118 @@ footer ul {
     justify-content: center;
     align-items: center;
     border-bottom: 5px solid white;
+}
+
+/*TABLET MODE*/
+@media(min-width: 768px) and (max-width:1024px){
+  .similar-cards, .abt-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+ 
+}
+
+/*DESKTOP MODE*/
+@media(min-width:1025px){
+    .mobile-menu{
+        display: none;
+    }
+    header{
+        padding: 50px 20px;
+
+    }
+    header div a{
+font-size: 40px;
+    }
+    .desktop-menu{
+        display: block;
+    }
+    .desktop-menu ul{
+        display: flex;
+        gap: 15px;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+    }
+    .desktop-menu ul li a{
+        font-size: 30px;
+    }
+     .desktop-menu ul li a:hover{
+        color: #ff6b00;
+     }
+    .desktop-menu ul li a img{
+        width: 50px;
+    }
+    .desk-icons{
+       display: block;
+    }
+    .desk-icons ul{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+    }
+    .desk-icons ul li a img{
+        width: 70px;
+    }
+    .mob-icons{
+        display: none;
+    }
+    .desk-bg{
+        display: flex;
+        width: 500px;
+    }
+    .mob-bg{
+        display: none;
+    }
+    .home{
+        flex-direction: row;
+        align-items: center;
+    }
+    .home h1{
+        font-size: 80px;
+    }
+      .home h2{
+font-size: 40px;
+      }
+          .home p{
+font-size: 26px;
+      }
+      .different-cards{
+        display: flex;
+      }
+      .different-cards span img{
+width: 500px;
+      }
+       .different-cards span{
+        width: 600px;
+       }
+       .different-cards span h3{
+        font-size: 35px;
+       }
+      .different-cards span p{
+        padding: 0 20px 0 0;
+        font-size: 25px;
+      } 
+        .similar-cards, .abt-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .contact{
+    flex-direction: row;
+  }
+  .mob-inp{
+    display: none;
+  }
+  .desk-inp{
+display: flex;
+gap: 10px;
+  }
+.always_inp{
+    width: 100%;
+  }
 }
