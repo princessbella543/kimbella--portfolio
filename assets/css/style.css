@@ -1,0 +1,390 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+    background-color: #3c3a39;
+}
+header div a{
+    color: #fff;
+    text-decoration:none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.desktop-menu{
+    display: none;
+}
+.desk-icons{
+    display: none;
+}
+.mobile-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mobile-menu p{
+    background-color: white;
+    padding: 2px 15px;
+}
+.home{
+    padding: 140px 0 0 10px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.desktop-icons{
+    display: none;
+}
+
+.home h1{
+    color:#ff6b00;
+    font-size: 50px; 
+    font-size: bold;  
+}
+.home h2{
+    color:white;
+    font-size: 30px;
+}
+.home p{
+    color: #ffff;
+    font-size: 20px;
+}
+
+.home ul{
+    display:flex;
+    list-style: none;
+}
+.bg{
+    display: flex;
+    justify-content: end;
+
+}
+.desk-bg{
+    display: none;
+}
+.mob-bg{
+    margin-top: -200px;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+}
+.project-heading{
+    display: flex;
+flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+
+}
+.project-heading h2{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.project-heading p{
+    background-color: grey;
+    padding: 1px 15px;
+    width:200px;
+}
+.project-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.different-cards span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    padding: 10px;
+}
+.different-cards span h3{
+    font-size: 25px;
+}
+.different-cards span p{
+    font-size: 18px;
+}
+.different-cards span ul {
+    display: flex;
+    gap:20px;
+    list-style: none;
+
+}
+.different-cards span ul li{
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.different-cards span button{
+    padding: 5px 8px;
+    font-size: 18px;
+    background-color: #ff6b00;
+    color: #fff;
+    width: 120px;
+    border:none;
+    border-radius:3px ;
+}
+.similar-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.similar-card{
+    
+    width: 327px;
+    height:400px;
+    background:url(../images/similar_bg.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding: 8px;
+    gap: 15px;
+
+}
+.similar-card h3{
+    font-size: 30px;
+    margin: 0 8px;
+}
+.similar-card p{
+    font-size: 18px;
+    margin: 0 8px;
+}
+.similar-card ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0 8px;
+    
+}
+.similar-card ul li{
+    border: 1px solid;
+    padding: 5px 7px;
+    background-color: rgba(red, green, blue, alpha);
+}
+.similar-card button{
+    padding: 26px 8px;
+    font-size: 18px;
+    background-color: #ff6b00;
+    color:#fff;
+    width: 100%;
+    border:none;
+    margin-top: 110px;
+    border-radius: 3px;
+}
+#first-similar{
+    background: url(../images/diff_bg.svg);
+}
+#first-similar button{
+    background-color: #ff6b00;
+    margin-top: 35px;
+    width:100%;
+    padding:10px;
+    color:#fff;
+    font-size: 20px;
+
+}
+
+/*ABOUT SECTION*/
+.about{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+padding:20px 0 0 10px;
+gap:40px;
+ background-color:#000;
+}
+.about-text{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.about-text span{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.about-text span h2{
+    font-size: 40px;
+    color:#ff6b00;
+}
+.about-text span p{
+    font-size:20px;
+    color:#fff;
+}
+.about-text span button{
+    width:150px;
+    padding:10px 15px;
+    background-color:#ff6b00;
+    color:#fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+.about-bg{
+    display: flex;
+    justify-content:end;
+}
+.abt-mob{
+    margin-top: -100px;
+    height: 300px;
+}
+.abt-desk{
+    display: none;
+}
+   .about-cards{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    border-radius: 8px;
+}
+.abt-cards span{
+    display: flex;
+    align-items: center
+    padding:10px;
+    gap:10px;
+}
+.abt-cards h3{
+     color: white;
+    font-size: 30px;
+}
+.abt-cards  ul{
+display: flex;
+    flex-direction: column;
+    gap:25px;
+    list-style:none;
+    padding:10px;
+    
+}
+.abt-cards ul li{
+    color: #fff;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.abt-card{
+    height: 400px;
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.abt-card span{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap:10px;
+}
+.abt-card span h3{
+    color: #fff;
+    font-size: 30px;
+}
+.abt-card ul{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    list-style:none;
+    padding:10px;
+}
+.abt-card ul li{
+    color: #fff;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+/*Contact and Footer*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 10px;
+
+}
+.contact p{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 52px;
+    text-align: center;
+
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+ gap: 20px;
+ align-items: center;
+ justify-content: center;
+}
+.desk-inp{
+    display: none;
+}
+.contact form .always_inp{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact form span input{
+    width: 300px;
+    padding: 10px;
+   margin: 10px 0;
+   border: none;
+   border-bottom: 1px solid;
+   border-radius: 8px;
+}
+.contact form span textarea{
+    padding: 30px 10px;
+   border: none;
+   border-bottom: 1px solid;
+   border-radius: 8px;
+
+}
+.contact form span input::placeholder{
+    font-size: 18px;
+}
+.contact form span textarea::placeholder{
+    font-size: 20px;
+}
+.contact form button{
+    padding: 5px 10px;
+    width: 120px;
+    background-color: #ff6b00;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+
+}
+footer{
+ background-color: #000;
+ padding: 20px 0 1px 0;
+ border-radius: 10px;
+}
+footer ul {
+     display:flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid white;
+}
