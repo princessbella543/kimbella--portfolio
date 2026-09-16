@@ -1,0 +1,30 @@
+*{
+    margin:10px;
+    padding:10px;
+    box-shadow: border-box;
+
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: #222;
+}
+container{
+    width:90px;
+    max: width 1100px;
+    margin:auto;
+
+}
+.hero{
+    background-color:black;
+    color:white;
+    min: height 550px;
+    padding:60px;
+
+}
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:50px;
+}
